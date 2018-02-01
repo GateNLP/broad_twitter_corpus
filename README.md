@@ -18,7 +18,7 @@ Section|Region|Collection period|Description|Annotators|Tweet count
 ---|---|---|---|---|---
 A | UK| 2012.01| General collection |Expert| 1000
 B |UK |2012.01-02 |Non-directed tweets |Expert |2000
-E |Global 2014.07| Related to MH17 disaster| Crowd & expert |200
+E |Global| 2014.07| Related to MH17 disaster| Crowd & expert |200
 F |Stratified |2009-2014| Twitterati |Crowd & expert |2000
 G |Stratified| 2011-2014| Mainstream news| Crowd & expert| 2351
 H |Non-UK| 2014 |General collection |Crowd & expert |2000
