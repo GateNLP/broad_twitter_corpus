@@ -2,11 +2,11 @@
 
 This is the Broad Twitter corpus, a dataset of tweets collected over stratified times, places and social uses. The goal is to represent a broad range of activities, giving a dataset more representative of the language used in this hardest of social media formats to process. Further, the BTC is annotated for named entities. The entities and the crowd annotations are all provided with the corpus, as well as (where possible) the raw twitter JSON.
 
-You can find the full story behind the corpus at http://www.aclweb.org/anthology/C16-1111
+You can find the full description of the corpus at http://www.aclweb.org/anthology/C16-1111
 
 ## Use
 
-The BTC is released as CC-BY 4.0. If you use this data, you must cite the accompanying paper:
+The BTC is released as CC-BY 4.0. If you use this data, you should cite the accompanying paper:
 
   Broad Twitter Corpus: A Diverse Named Entity Recognition Resource. Leon Derczynski, Kalina Bontcheva, and Ian Roberts. Proceedings of COLING, pages 1169-1179 2016.
 
