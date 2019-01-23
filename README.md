@@ -30,3 +30,11 @@ The data is provided in up to three formats: CoNLL, JSON, and GATE XML. JSON is 
 Plain annotation data from CrowdFlower is also provided, in the .annotations/ directories. This is to assist future users working on crowdsourcing, e.g. on predicting the utility of a worker judgment.
 
 As well as CONLL-format annotations, for each document in each section, there's a .json file. This file has one record per line, each record corresponding to a document. At a minimum, every record will have a "tokens" and a "labels" list, which are the tokenized text and matching BIO labels for person, organization and location entities. There may be other data in the case that the whole tweet from the Twitter API was available at distribution time.  Additionally, there may be an "annotation offsets" parameter that aligns the token annotations to the plain text in the tweet (often in the top-level "text" object, if the tweet's there).
+
+## Recommended splits
+
+The most varied parts of the BTC are sections F and H. However, each of the remaining four sections has some specific readily-identifiable bias. So, we propose that one uses half of section H for evaluation and leaves the other half in the training data. Section H should be partitioned in the order of the JSON-format lines. Note that the CoNLL-format data is readily reconstructible from the JSON format, which is the authoritative data format from which others are derived.
+
+**Test**: Section F
+**Development**: second half of Section H
+**Training**: everything else
