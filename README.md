@@ -4,6 +4,8 @@ This is the Broad Twitter corpus, a dataset of tweets collected over stratified 
 
 You can find the full description of the corpus at http://www.aclweb.org/anthology/C16-1111
 
+There's a reader for the corpus on Hugging Face Hub called [strombergnlp/broad_twitter_corpus](https://huggingface.co/datasets/strombergnlp/broad_twitter_corpus)
+
 ## Use
 
 The BTC is released as CC-BY 4.0. If you use this data, you should cite the accompanying paper:
